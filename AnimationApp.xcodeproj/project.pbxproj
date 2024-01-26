@@ -63,10 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				48616AF42B6414A300533730 /* App */,
-				48616AF62B6414CA00533730 /* ViewControllers */,
 				48616AF92B641E7A00533730 /* Models */,
 				48616AFC2B641ECD00533730 /* Services */,
 				48616AF52B6414BF00533730 /* Storyboards */,
+				48616AF62B6414CA00533730 /* ViewControllers */,
 				48616AE62B64141F00533730 /* Assets.xcassets */,
 			);
 			path = AnimationApp;
