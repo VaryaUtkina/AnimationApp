@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gh1-7h-sLH" customClass="SpringView" customModule="SpringAnimation">
-                                <rect key="frame" x="40" y="50" width="240" height="131"/>
+                                <rect key="frame" x="40" y="50" width="240" height="140"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrH-IN-YSd">
-                                        <rect key="frame" x="16" y="16" width="208" height="99"/>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                        <rect key="frame" x="12" y="16" width="216" height="108"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -29,8 +29,9 @@
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="zrH-IN-YSd" firstAttribute="top" secondItem="gh1-7h-sLH" secondAttribute="topMargin" constant="8" id="DJ6-BH-91O"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="zrH-IN-YSd" secondAttribute="trailing" constant="8" id="RY3-6h-6CY"/>
-                                    <constraint firstItem="zrH-IN-YSd" firstAttribute="leading" secondItem="gh1-7h-sLH" secondAttribute="leadingMargin" constant="8" id="mq4-pm-W4R"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="zrH-IN-YSd" secondAttribute="trailing" constant="4" id="RY3-6h-6CY"/>
+                                    <constraint firstAttribute="height" constant="140" id="ThO-vu-pl0"/>
+                                    <constraint firstItem="zrH-IN-YSd" firstAttribute="leading" secondItem="gh1-7h-sLH" secondAttribute="leadingMargin" constant="4" id="mq4-pm-W4R"/>
                                     <constraint firstAttribute="bottomMargin" secondItem="zrH-IN-YSd" secondAttribute="bottom" constant="8" id="tzW-sk-M7h"/>
                                 </constraints>
                             </view>
@@ -56,7 +57,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gh1-7h-sLH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2xg-1l-aBJ"/>
-                            <constraint firstItem="gh1-7h-sLH" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.230634" id="DoF-6E-3E5"/>
                             <constraint firstItem="onZ-gf-DDB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="NAH-JH-PE9"/>
                             <constraint firstItem="gh1-7h-sLH" firstAttribute="width" secondItem="onZ-gf-DDB" secondAttribute="width" multiplier="1.04348" id="cId-zP-wKV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="onZ-gf-DDB" secondAttribute="bottom" constant="40" id="hqP-I9-jic"/>
@@ -71,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1063" y="-69"/>
+            <point key="canvasLocation" x="-1063.125" y="-69.718309859154928"/>
         </scene>
     </scenes>
     <resources>
