@@ -14,7 +14,7 @@
 		48616AE72B64141F00533730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48616AE62B64141F00533730 /* Assets.xcassets */; };
 		48616AEA2B64141F00533730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48616AE82B64141F00533730 /* LaunchScreen.storyboard */; };
 		48616AF32B64149100533730 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 48616AF22B64149100533730 /* SpringAnimation */; };
-		48616AF82B641E7100533730 /* SpringOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48616AF72B641E7100533730 /* SpringOption.swift */; };
+		48616AF82B641E7100533730 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48616AF72B641E7100533730 /* Animation.swift */; };
 		48616AFB2B641EC100533730 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48616AFA2B641EC100533730 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 		48616AE62B64141F00533730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48616AE92B64141F00533730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48616AEB2B64141F00533730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48616AF72B641E7100533730 /* SpringOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOption.swift; sourceTree = "<group>"; };
+		48616AF72B641E7100533730 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		48616AFA2B641EC100533730 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +102,7 @@
 		48616AF92B641E7A00533730 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				48616AF72B641E7100533730 /* SpringOption.swift */,
+				48616AF72B641E7100533730 /* Animation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48616AE22B64141C00533730 /* ViewController.swift in Sources */,
-				48616AF82B641E7100533730 /* SpringOption.swift in Sources */,
+				48616AF82B641E7100533730 /* Animation.swift in Sources */,
 				48616ADE2B64141C00533730 /* AppDelegate.swift in Sources */,
 				48616AFB2B641EC100533730 /* DataStore.swift in Sources */,
 				48616AE02B64141C00533730 /* SceneDelegate.swift in Sources */,
